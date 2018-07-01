@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="***Select only one answer to each question...BON VOYAGE***"
+            android:textStyle="italic"
+            android:textColor="#be0c0f"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Which one of these CEOs is planning to colonise Planet Mars?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:id="@+id/op1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Bill Gate"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:id="@+id/op2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Elon Musk"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:id="@+id/op3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Warren Buffet"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:id="@+id/op4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Mark Zuckerberg"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="Elon Musk, the CEO and Lead designer of SpaceX who is presently testing transporting human acros the world in a rocket, is also working towards Life On Mars"
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Located in Northern California, USA. How can you best desribe Silicon Valley?"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:paddingStart="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home of Raw material"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arsenal Heart of The States"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bureaucratic Hub City"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Innovative center"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:paddingStart="15dp"
+                android:text="Silicon Valley according to Wikipedia serves as the global center for high technology, venture capital, innovation, and social media"
+                android:textColor="@color/colorError"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Mark Zuckerberg owns which of these combination of apps?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Whatsapp, Instagram and Twitter"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Whatsapp, Twitter and Snaochat"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Facebook, Whatsapp and Instagram"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Snappchat, LinkedIN, Facebook"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="Facebook, Whatsapp and Instagram...Jusst google it"
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. What us VR?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Verbose Redo"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Very Rare"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Virtual Reality"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Vox Report"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="Virtual Reality is the use of computer technology to create a simulated environment, putting human users in a virtual world to interact with 3D environment"
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. What do we call a collection of two or more computers that are located within a limited distance of each other and that are connected to each other directly or indirectly?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Internet"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Intranet"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Personal Area Network"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Local Area Network"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="Local Area Network - it's definition"
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. '.TXT' extension refers usually to what kind of file?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Text File"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Word docment"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Encrypted ebook file"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Comma Separated Value"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="TXT stands for text...hence extension for text file."
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7e8e8"
+            android:orientation="vertical"
+            android:paddingTop="15px"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.
+Who is largely responsible for breaking the German Enigma codes, created a test that provided a foundation for artificial intelligence?"
+                android:textSize="17sp"
+                android:textColor="#000"/>
+            <RadioGroup
+                android:id="@+id/radio_group7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Jeff Bezos"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Alan Turing"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Jeff Weiner"
+                    android:textSize="15sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Harry Akande"
+                    android:textSize="15sp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/exp7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="Foundation for AI...he's got to be the oldest - Alan Turing..Tricky yea :)"
+                android:textColor="@color/colorError"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="15dp">
+
+            <Button
+                android:id="@+id/subButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="end"
+                android:layout_marginLeft="15dp"
+                android:layout_marginEnd="15dp"
+                />
+            <Button
+                android:id="@+id/resButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reset"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="end"
+                android:layout_marginLeft="15dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:onClick="reset"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
